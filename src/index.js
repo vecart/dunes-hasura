@@ -7,7 +7,7 @@ import Planets from './Components/Planets';
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: 'https://shielded-peak-99713.herokuapp.com/v1/graphql',
+    uri: 'https://enabling-deer-37.hasura.app/v1/graphql',
   })
 });
 
