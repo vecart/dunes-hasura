@@ -9,9 +9,9 @@ const PLANETS = gql`
       name
       cuisine
     }
-  }
+}
 `;
-
+console.log(PLANETS)
 //Component
 //useQuery function call, passing in our query
 export default function Planets() {
